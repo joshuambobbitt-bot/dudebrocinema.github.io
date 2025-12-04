@@ -74,6 +74,7 @@ footer {
     font-weight: bold;
     font-size: 14px;
     padding: 1rem 0;
+    margin-top: 3rem;
 }
 
 /* HOME PAGE */
@@ -116,6 +117,7 @@ input {
     background: #da9664;
     color: #F8F4F9;
     border: 3px solid #0A4748;
+    text-decoration: underline;
 }
 
 .featured_events{
@@ -149,14 +151,14 @@ text-align: center;
     margin-top: 3rem;
 }
 .review-card{
-    width: 500px;
-    height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 300px;
+    height: auto;
 }
-.review-poster{
-
+.review-card img {
+    width: 100%;
 }
 .review-stars a{
     color: #da9664;
@@ -169,19 +171,23 @@ text-align: center;
     padding: 0 1rem;
     gap: 1.5rem
 }
-.read-more {
+.read-more button{
     background:#F8F4F9;
     color: #da9664;
     font-weight: bold;
     border: 3px solid #da9664;
     border-radius: 10px;
-    margin: 0 auto;
 }
 .read-more:hover, .read-more:focus, .read-more:focus-within {
     background: #da9664;
     color: #F8F4F9;
     border: 3px solid #0A4748;
+    text-decoration: underline;
 }
+.read-more {
+    margin: 0 auto;
+}
+
 
 
 /* EVENTS PAGE */
@@ -198,3 +204,5 @@ text-align: center;
 .events-blurb {
     padding: 1rem 1rem;
 }
+
+/* REVIEW PAGE */
