@@ -1,0 +1,20 @@
+/* 
+Colors
+Text: #090C08
+Primary: #0A4748
+Secondary: #DA9664
+Accent: #89BDB2
+Background: #F8F4F9
+
+Fonts
+Header 1: Merriweather-Bold-48pt
+Header 2: Merriweather-Regular-40pt
+Header 3: Merriweather-Bold-32pt
+Header 4: Merriweather-Regular-28pt
+Footer Text: Merriweather-Bold-16pt
+Nav Items: Courier Prime-Bold-24 
+Body Text: Courier Prime-Regular-16pt
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap')
+
