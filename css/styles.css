@@ -1,4 +1,4 @@
-/* 
+/* From Prototype:
 Colors
 Text: #090C08
 Primary: #0A4748
@@ -16,5 +16,67 @@ Nav Items: Courier Prime-Bold-24
 Body Text: Courier Prime-Regular-16pt
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap')
+body {
+    background-color: #F8F4F9;
+    color: #090C08;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime';
+    font-size: ;
+}
 
+/* FONTS */
+h1, h2, h3, h4, footer {
+    font-family: 'Merriweather';
+    text-align: center;
+}
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: ;
+}
+h3 {
+    font-size: ;
+    font-weight: normal;
+}
+
+
+/* NAV BAR UPDATES*/
+nav {
+    background: #da9664;
+    color: #F8F4F9;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+footer {
+    background: #da9664;
+    color: #F8F4F9;
+    font-weight: bold;
+    font-size: ;
+    padding: 1rem 0;
+}
+
+/* HOME PAGE */
+.mission {
+    background-color: #0A4748;
+    color: #89BDB2;
+    padding: 1.5rem;
+    margin: 1.5rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.mission h2 {
+    color: #F8F4F9;
+}
+
+.sign-up {
+    background-color: #89BDB2;
+    padding: 2rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}

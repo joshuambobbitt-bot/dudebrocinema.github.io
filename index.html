@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Dude Bro Cinema</title>
@@ -12,7 +15,7 @@
 <body>
     <nav class="demo">
         <a href="index.html" class="brand">
-            <img class="logo" src="img/logo.jpg" />
+            <img class="logo" src="img/logo.jpg" alt="logo">
             <span>Dude Bro Cinema</span>
         </a>
         
@@ -24,7 +27,7 @@
             <a href="about.html" class="button icon-puzzle">About</a>
             <a href="contact.html" class="button icon-puzzle">Contact</a>
             <a href="events.html" class="button icon-puzzle">Events</a>
-            <a href="reviews.html" class="button icon-puzzle">Review</a>
+            <a href="reviews.html" class="button icon-puzzle">Reviews</a>
         </div>
     </nav>
 
@@ -33,6 +36,7 @@
             <h2>Mission Statement</h2>
             <p>Write it in!</p>
         </section>
+        
         <section class="newsletter">
             <h3>Join Our Newsletter!</h3>
             <form class="sign-up">
@@ -43,11 +47,40 @@
                 <button type="submit" class="submit-button">SUBMIT</button>
             </form>
         </section>
+        
         <section class="featured_events">
-
+            <h3>Featured Events</h3>
+            <div class="event-cards">
+                <div class="event-date">
+                    <span class="month"></span>
+                    <span class="date"></span>
+                </div>
+                <div class="event-details"></div>
+            </div>
         </section>
+        
         <section class="featured_reviews">
-
+            <div class="review-card">
+                <a class="review-poster" href="#"> <img src="#" alt="Movie Poster"> </a>
+                <div class="review-stars">
+                    <a class="review-link" href="#">#</a>
+                </div>
+            </div>
+            <div class="review-card">
+                <a class="review-poster" href="#"> <img src="#" alt="Movie Poster"> </a>
+                <div class="review-stars">
+                    <a class="review-link" href="#">#</a>
+                </div>
+            </div>
+            <div class="review-card">
+                <a class="review-poster" href="#"> <img src="#" alt="Movie Poster"> </a>
+                <div class="review-stars">
+                    <a class="review-link" href="#">
+                        &#x2605;&#x2605;&#x2605;&#x2605;&#x2606;
+                    </a>
+                </div>
+            </div>
+            <button class="read-more">Read More</button>
         </section>
     </main>
 
